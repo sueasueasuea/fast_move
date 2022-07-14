@@ -1,0 +1,29 @@
+if(j==num-1&&i==num-1){
+                    console.log('print disarr',Disarr)
+                    console.log('print timearr',Timearr)
+                    var sendParaToAPI = {
+                      method: 'post',
+                      url: `http://192.168.1.100:5002/send`,
+                      
+                    
+                      data: {
+                        num : num,
+                        distanceArray: Disarr,
+                        timeArray: Timearr
+                      }
+                    };
+  
+            
+                      axios(sendParaToAPI)
+                    .then(function (response) {
+                      
+                      let data =response
+                      console.log('status of sending api',data);
+                      },)
+                      .catch(function (error) {
+                        console.log(error);
+                      });
+                      this.setState({loading:false})
+                  }
+                  
+                  

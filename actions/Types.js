@@ -1,0 +1,12 @@
+export const ADD_USER = "ADD_USER"
+export const EDIT_USER = "EDIT_USER"
+export const ADD_REGION = "ADD_REGION"
+export const RESET_REGION = "RESET_REGION"
+export const EDIT_REGION = "EDIT_REGION"
+export const DELETE_REGION = "DELETE_REGION"
+export const SAVE_ORDER = "SAVE_ORDER"
+export const EDIT_MORE_ORDER = "EDIT_MORE_ORDER"
+export const ADD_DIST_DURA_PRICE_TO_ORDER = "ADD_DIST_DURA_PRICE_TO_ORDER"
+export const ADD_GNOME_ORDER = "ADD_GNOME_ORDER"
+
+export const START_CHAT = "START_CHAT"
